@@ -11,9 +11,11 @@ public class gugudan {
 			for(int j=1;j<=9;j++)
 				for( int i=1; i<=9; i++)
 					System.out.println(j+"*"+i+"="+j*i);
-		else
+		else if(k>=0)
 			for( int i=1; i<=9; i++)
 				System.out.println(k+"*"+i+"="+k*i);
+		else
+			System.out.println("구구단을 출력할 수 없습니다.");
 	}
 
 }
